@@ -2,7 +2,7 @@ version: "1"
 
 # The name of the application.
 services:
-  zeus:
+  creator:
     build: .
     ports:
       - "80:5000"
