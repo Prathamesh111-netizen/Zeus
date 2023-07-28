@@ -1,0 +1,9 @@
+version: "1"
+
+# The name of the application.
+services:
+  zeus:
+    build: .
+    ports:
+      - "80:5000"
+  
